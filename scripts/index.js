@@ -7,7 +7,7 @@ for (var i = 0; i < document.querySelectorAll(".drum").length; i++) {
   });
 }
 
-//detecting keyboard presses
+//Detecting keyboard presses
 document.addEventListener("keypress", function (event) {
   playMusic(event.key);
   buttonAnimation(event.key);
