@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background-color: #f07b3f;
+  background-color: #0291BC;
 }
 
 h1 {
@@ -13,6 +13,7 @@ h1 {
 footer {
   color: #dbedf3;
   font-family: sans-serif;
+ /* animation: hvr-wobble-skew;*/
 }
 
 .w {
@@ -53,7 +54,7 @@ footer {
 }
 
 .pressed {
-  box-shadow: 0 3px 4px 0 #dbedf3;
+  box-shadow: -3px -3px 50px #ffffff,3px 3px 100px #000000;
   opacity: 0.5;
 }
 
@@ -70,7 +71,7 @@ footer {
   font-weight: 900;
   color: #da0463;
   text-shadow: 3px 0 #dbedf3;
-  border-radius: 15px;
+  border-radius: 50%;
   display: inline-block;
   width: 150px;
   height: 150px;
@@ -78,3 +79,34 @@ footer {
   margin: 10px;
   background-color: white;
 }
+
+h1:hover{
+  transform: scale(1.5); 
+}
+
+footer:hover{
+
+  color: #da0463;
+  font-style: italic;
+}
+
+.drum:hover{
+  font-size: xx-large;
+  color: #C71585;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
